@@ -1,0 +1,58 @@
+{
+  "name": "crud-node-express",
+  "version": "1.0.0",
+  "private": true,
+  "description": "crud-node-express",
+  "author": {
+    "name": "Akash Limbani",
+    "email": "akashlimbani22@gmail.com"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aakash-limbani/crud-node-express.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@hapi/joi-date": "^2.0.1",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "connect-timeout": "^1.9.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "dotenv-webpack": "^8.0.1",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-session": "^1.17.3",
+    "helmet": "^7.0.0",
+    "http-status": "^1.6.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongodb-client-encryption": "^6.0.0",
+    "mongoose": "^7.4.5",
+    "mongoose-aggregate-paginate-v2": "^1.0.6",
+    "morgan": "^1.10.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "validator": "^13.11.0",
+    "winston": "^3.10.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.0.2",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "engines": {
+    "node": "14.19.0",
+    "npm": "8.5.5"
+  }
+}
